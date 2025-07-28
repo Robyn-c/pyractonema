@@ -1,7 +1,7 @@
 <template>
-  <aside class="fixed h-screen bg-gray-800/20 backdrop-blur-lg">
+  <aside class="fixed h-fit py-4 bg-gray-800/20 backdrop-blur-lg">
     <nav>
-      <div class="w-96 pt-48 px-8">
+      <div class="w-96 py-48 px-8">
         <ul class="flex flex-col gap-2 text-white">
           <NavLink icon="characters" href="/characters">Characters</NavLink>
           <NavLink icon="wish" href="/wish">Wish Counter</NavLink>

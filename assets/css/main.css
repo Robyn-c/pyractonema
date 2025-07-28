@@ -5,3 +5,11 @@
 :root, html, body, #__nuxt {
   height: 100%;
 }
+
+body {
+  padding: 2rem;
+  background-image: url("../../public/bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
